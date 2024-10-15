@@ -15,7 +15,7 @@ Welcome to my **Personal Portfolio Website**! This is where I showcase my projec
 
 ## 📂 Project Structure  
 ```plaintext
-/ (root)
+/ my-personal-website
 │── index.html        # Main entry point  
 │── about.html        # About Me page  
 │── projects.html     # Portfolio/Projects page  
