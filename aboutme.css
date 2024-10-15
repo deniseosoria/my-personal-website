@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 60px;
+}
+
+h2{
+    color: rgb(143, 50, 143);
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited{
+    color: #ffffff;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+.nav-item-right{
+    margin-left: 50px;
+}
