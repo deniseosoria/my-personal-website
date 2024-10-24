@@ -5,7 +5,7 @@ body{
 }
 
 h2{
-    color: rgb(143, 50, 143);
+    color: #5c35ab;
 }
 
 a{
@@ -22,6 +22,8 @@ a:visited{
 .navbar{
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
     font-size: 20px;
 }
 
@@ -29,3 +31,23 @@ a:visited{
 .nav-item-right{
     margin-left: 50px;
 }
+
+.nav-button{
+    background-color: black;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 8px 18px;
+
+}
+
+#contact-button{
+    background-color: #ffffff;
+    color: black;
+}
+
+.nav-button:hover{
+    background-color: rgba(164, 160, 160, 0.374) !important;
+}
+
