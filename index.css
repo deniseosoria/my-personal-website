@@ -1,7 +1,8 @@
 body{
     background-color: black;
-    color: white;
+    color: rgb(189, 180, 180);
     margin: 60px;
+    padding-bottom: 500px;
 }
 
 a{
@@ -14,19 +15,72 @@ a:visited{
     
 }
 
-button{
-    background-color: rgb(83, 21, 83);
-    color: white;
-    border: 1px solid rgb(83, 21, 83);
-}
-
 .navbar{
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
     font-size: 20px;
 }
 
 
 .nav-item-right{
     margin-left: 50px;
+}
+
+#home-button{
+    background-color: #ffffff;
+    color: black;
+}
+
+.nav-button{
+    background-color: black;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 8px 18px;
+
+}
+
+.nav-button:hover{
+    background-color: rgba(164, 160, 160, 0.374) !important;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+.connect-button{
+    background-color: #5c35ab;
+    color: white;
+    border: 1px solid #5c35ab;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.connect-button:hover{
+    background-color: #5c35ab96;
+}
+
+.hero-section{
+    display: flex;
+}
+
+.hero-info{
+    width: 700px;
+}
+
+.hero-info>p{
+    width: 500px;
+    font-size: 18px;
+}
+
+strong{
+    color: white;
+}
+.hero-img{
+    margin-top: 70px;
+    margin-left: 60px;
 }
